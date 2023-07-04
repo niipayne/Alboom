@@ -1,0 +1,30 @@
+body{
+  border: none;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 10000px;
+  padding-top: 92px;
+  padding-left: 15px;
+}
+
+.gallery{
+  margin-top: 1px;
+  outline: 1px red dashed;
+  display: flex;
+  height: 40rem;
+}
+
+.gallery > div{
+  outline: 1px red dashed;
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.gallery > div:hover {
+  flex: 1.5;
+}
+

@@ -1,0 +1,46 @@
+Color for Tee's4
+- black
+- White
+
+Color for the designs of Tees:
+- black
+- white
+- red
+- green
+
+Color for shorts
+- Black
+- White
+- green
+
+Color for the designs of shorts:
+- Black
+- White
+- Green
+
+Color for hoodies:
+- black
+- Red
+- green
+- White
+
+Color for the designs of hoodies:
+- Black
+- White
+- Green
+
+
+color numbers for tee's:
+16 and 22
+
+Color numbers for shorts:
+16, 22, 54
+
+Color numbers for hoodies:
+18, 16, 1, and 54
+
+Description for shirts: Oversized 100% cotton fabric with soft and loose feel. Will be doing men and women sizes different.
+
+Description for shorts:  100% cotton fabric with soft and loose feel. Will be doing unisex.
+
+Description for hoodies: Oversized mens medium heavy 100% cotton fabric with heavy and loose feel almost like its giving them a warm hug. Hoodies will just stay at mens sizes.
