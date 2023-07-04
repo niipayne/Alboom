@@ -1,5 +1,10 @@
 const indicator = document.querySelector(".nav-indicator");
 const items = document.querySelectorAll(".nav-item");
+const instaLink = document.querySelector('.js-insta');
+
+instaLink.addEventListener("click", () => {
+  window.open("https://www.instagram.com/abloomplace/")
+});
 
 function handleIndicator(el) {
   items.forEach((item) => {
@@ -21,3 +26,5 @@ items.forEach((item, index) => {
   });
   item.classList.contains("is-active") && handleIndicator(item);
 });
+
+

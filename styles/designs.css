@@ -1,0 +1,70 @@
+.design-title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  border-bottom-width: 4px;
+
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228,228,228);
+
+  border-top-style: solid;
+  border-top-color: rgb(228,228,228);
+  border-top-width: 4px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+
+}
+
+.michael-pic{
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+  text-align: center;
+
+}
+
+.michael {
+  transition: transform 1.4s;
+}
+
+.michael:hover {
+  transform: scale(1.015);
+}
+
+
+.love-pic{
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+.love {
+  transition: transform 1.4s;
+}
+
+.love:hover {
+  transform: scale(1.015);
+}
+
+.shooting-star-pic{
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+.shooting-star {
+  transition: transform 1.4s;
+}
+
+.shooting-star:hover {
+  transform: scale(1.015);
+}
+
+div.container {
+  padding: 10px;
+}

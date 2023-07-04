@@ -2,6 +2,12 @@
   <head>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/clothing-grid.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/designs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,11 +19,11 @@
     <div class = "header">
       <div class = "left-section">
         <nav class="nav">
-          <a href="#" class="nav-item is-active" active-color="orange">Home</a>
-          <a href="#" class="nav-item" active-color="green">Designs</a>
-          <a href="#" class="nav-item" active-color="blue">About</a>
-          <!--<a href="#" class="nav-item" active-color="red">Blog</a>-->
-          <a href="#" class="nav-item" active-color="rebeccapurple">Contact</a>
+          <a href="#" class="nav-item is-active" active-color="grey">Home</a>
+          <a href="#apparel" class="nav-item" active-color="grey">Apparel</a>
+          <a href="#design" class="nav-item" active-color="grey">Designs</a>
+          <a href="#about" class="nav-item" active-color="grey">About</a>
+          
           <span class="nav-indicator"></span>
         </nav>
       </div>
@@ -25,19 +31,110 @@
         <video contorls muted autoplay loop class="practice-logo"  src="images/broll (online-video-cutter.com).mp4" alt="">
       </div>
       <div class="right-section">
-        <img class="shopping-cart-icon" src ="images/white-shopping-cart-icon-png-19.jpg" alt="">
+        <img class="insta-icon js-insta" src ="images/instagram-icon-white-on-black.png" alt="">
       </div>
     </div>
-    <!-- For the photo display -->
-    <div class="gallery">
-      <div style="background-image: url(images/michael.png);" class="michael-pic"></div>
-      <div style="background-image: url(images/love.png);" class="love-pic">
-        
-      </div>
-      <div style="background-image: url(images/shooting-star.png);" class="shooting-star-pic"></div>
+
+    <div class="vid-container js-vid-container">
+      <button class="mute-button js-mute-button">Unmute</button>
+      <video  autoplay muted src="images/Nested Sequence 01_1.mp4"  class = "slide1 js-slide1"></video>
+      <video  autoplay muted  src="images/IMG_0273_1.mp4"  class = "slide2 js-slide2"></video> 
     </div>
 
+    <div id = "about" class="about-heading">
+      <p>About</p>
+    </div>
+    <div class="about-info">
+      <p class="info">
+        "I know you're trying your damnedest to be tough... but the truth is, you're terrified."
 
+        "Your plan's gonna get us all killed, and you know it."
+
+        "Did you ever love me?"
+
+        "How much do you wanna bet?"
+
+        "You're just messing with me."
+
+        "You're not a very convincing liar."
+
+        "I'm not gonna hurt you. I'm just here to help."
+
+        "I see you. I know you're watching me."
+
+        "You're the reason why I came back."
+
+        "Death is a part of life. I accepted that a long time ago."
+
+        "How about a little midnight snack?"
+
+        "Do you ever stop talking?"
+
+        "What are you getting out of this?"
+
+        "It's nothing personal."
+
+        "You look like you just saw a ghost."
+
+        "It's fine. Nothing I haven't dealt with before."
+
+        "Are you trying to get yourself killed?!"
+
+        "Why can't you be happy for me?"
+
+        "What are you doing here? It's the middle of the night."
+
+      </p>
+
+      <img class="something-image" src="images/ABLOOM LOGO v b.png" alt="">
+    </div>
+    
+    
+
+    <p id="design" class="design-title"> Designs </p>
+    <div  class="gallery">
+      
+      <div class="michael-pic">
+        <div class = "michael" >
+          <img  src="images/michael.png" alt=""  style="width: 100%;">
+        </div>
+        <div class="container">
+          <p>Michael</p>
+        </div>
+      </div>
+
+      <div class="love-pic">
+        <div class="love">
+          <img src="images/love.png" alt=""  style="width: 100%;">
+        </div>
+        <div class="container">
+          <p>Love</p>
+        </div>
+      </div>
+
+      <div class="shooting-star-pic">
+        <div class="shooting-star">
+          <img src="images/shooting-star.png" alt="" style="width: 100%;">
+        </div>
+        <div class="container">
+          <p>Shooting Star</p>
+        </div></div>
+    </div>
+
+    <p id="apparel" class="new-apparel">Apparel</p>
+    <div class="products-grid js-products-grid">
+      
+    </div>
+
+    <p class = "done">More to come...</p>
+
+   
+    <script src="scripts/products.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/video.js"></script>
   </body>
+</html>
 
-  <script src="scripts/header.js"></script>
+
+ 
